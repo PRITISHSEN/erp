@@ -1,0 +1,62 @@
+.dashboard-container {
+    padding: 20px;
+}
+
+.dashboard-heading {
+    font-size: 30px;
+    margin-bottom: 20px;
+    text-align: center;
+}
+
+.metrics-container {
+    display: flex;
+    gap: 20px;
+}
+
+.metric-card {
+    background-color: #fff;
+    border-radius: 8px;
+    padding: 20px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.metric-icon {
+    font-size: 32px;
+    margin-right: 15px;
+    color: #4caf50; 
+}
+
+.metric-label {
+    margin-bottom: 5px;
+    font-size: 16px;
+    color: #777;
+}
+
+.metric-value {
+    font-size: 24px;
+    font-weight: bold;
+}
+
+.cta-buttons {
+    margin-top: 30px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 12px 24px;
+    background-color: #4caf50; 
+    color: #fff;
+    text-decoration: none;
+    border-radius: 8px;
+    font-size: 16px;
+    margin-right: 15px;
+    transition: background-color 0.3s;
+}
+
+.cta-button:hover {
+    background-color: #45a049; 
+}
+
